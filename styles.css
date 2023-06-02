@@ -188,11 +188,11 @@ header {
 }
 
 .about-content img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   padding-bottom: 5%;
-
+  position: inherit;
 }
 
 .about-content p {
@@ -219,6 +219,9 @@ header {
   text-align: center;
 }
 
+.about-content .left-content p {
+  word-wrap: break-word;
+}
 .about-content .right-content {
   flex-basis: 45%;
 }
@@ -682,6 +685,16 @@ header {
 
 .contact-content a:hover{
   color: #f0f0e6;
+}
+
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #25b79f;
+  color: black;
+  text-align: center;
 }
 
 /* ////......Media query......//// */
